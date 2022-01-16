@@ -1,6 +1,10 @@
 package stepDefinitions;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 import io.cucumber.java.en.Given;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginClass {
 
@@ -10,6 +14,9 @@ public class LoginClass {
 	    
  
 	 System.out.println("Hello jalkaj");
+	 WebDriverManager.chromedriver().setup();
+	 WebDriver driver = new ChromeDriver();
+	 driver.get("https://www.google.com/");
  	 
 	 }
 
