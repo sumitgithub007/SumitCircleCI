@@ -8,7 +8,7 @@ public class LoginClass {
 	 @Given("User login to google")
 	public void user_login_to_google() {
 	    
-	 System.out.println("Hello ankit");
+	 System.out.println("Hello namo");
 	 
 	 
 	 }
