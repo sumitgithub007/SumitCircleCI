@@ -14,7 +14,7 @@ public class LoginClass {
 	    
  
 	 System.out.println("Hello jalkaj");
-	 WebDriverManager.chromedriver().arm64().setup();
+	 WebDriverManager.chromedriver().setup();
 	 WebDriver driver = new ChromeDriver();
 	 driver.get("https://www.google.com/");
  	 
